@@ -1,5 +1,8 @@
 <template>
-  <img src="./assets/logo.png"/>
+  <div>
+    <img src="./assets/logo.svg"/>
+    <h1>STEREO VIKING</h1>
+  </div>
 </template>
 
 <script>
