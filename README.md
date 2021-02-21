@@ -1,4 +1,4 @@
-# stereoviking
+# Upgraded Funicular
 
 ## Project setup
 ```

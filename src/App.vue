@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <img src="./assets/logo.svg"/>
+  <div id='app'>
+    <img alt="Viking Logo" src="./assets/logo.svg"/>
     <h1>STEREO VIKING</h1>
   </div>
 </template>
