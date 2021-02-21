@@ -1,8 +1,7 @@
-<template>
-  <div id='app'>
-    <img alt="Viking Logo" src="./assets/logo.svg"/>
-    <h1>STEREO VIKING</h1>
-  </div>
+<template lang="pug">
+  #app
+    img(alt="Viking Logo" src="./assets/logo.svg")
+    h1 STEREO VIKING
 </template>
 
 <script>
