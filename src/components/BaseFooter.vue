@@ -4,7 +4,7 @@
     absolute
     padless
     inset
-  ): v-container(fluid).pa-0.ma-0
+  ): v-container.pa-0.ma-0
     v-row(
       justify="center"
       no-gutters
@@ -12,12 +12,12 @@
       v-card(
         flat
         tile
-      ).ligten-1.text-center
+        color="transparent"
+      ).text-center
         v-card-text
           v-row: IconsSocial
           v-row(
             justify="center"
-            no-gutters
           ).pt-2
             span.text-center {{ year }} - <strong>Stereo Viking</strong>
 </template>

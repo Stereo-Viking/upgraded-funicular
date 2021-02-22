@@ -3,6 +3,7 @@
     app
     clipped-left
   )
+    v-app-bar-title STEREO VIKING
     v-spacer
     v-card(
       color="transparent"
@@ -17,7 +18,6 @@
         src="@/assets/logo.svg"
         hide-on-scroll
       ).pa-4
-    v-spacer
 </template>
 
 <script>

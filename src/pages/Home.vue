@@ -1,32 +1,26 @@
 <template lang="pug">
   BaseLayout
-    v-container(fluid).d-flex.justify-center
-      v-card(
-        max-width="400"
-        flat
-      ).logo
-        v-img(alt="Viking Logo" src="@/assets/logo.svg")
-        h1 STEREO VIKING
+    BaseParallax(:image='require("@/assets/hero.jpg")')
+      v-row(
+        align="center"
+        justify="center"
+      )
+        v-col(cols="12").text-center
+          h1.display-1.font-weight-thin.mb-4
+            | Stereo Viking
+          h4.subheading
+            | Consumer Purchasing Extinction
 </template>
 
 <script>
 import BaseLayout from "@/components/BaseLayout"
+import BaseParallax from "@/components/BaseParallax"
 
 export default {
   name: "Home",
   components: {
-    BaseLayout
-  }    
+    BaseLayout,
+    BaseParallax
+  }
 }
 </script>
-
-<style>
-.logo {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-</style>
-
