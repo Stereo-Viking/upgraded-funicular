@@ -4,7 +4,8 @@
     absolute
     padless
     inset
-  ): v-container.pa-0.ma-0
+  )
+    v-spacer
     v-row(
       justify="center"
       no-gutters
@@ -20,6 +21,7 @@
             justify="center"
           ).pt-2
             span.text-center {{ year }} - <strong>Stereo Viking</strong>
+      v-spacer
 </template>
 
 <script>
